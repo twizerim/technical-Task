@@ -4,6 +4,8 @@
   "description": "This project is project of creating API endpoint of create user and get one",
   "main": "server.js",
   "scripts": {
+    "start": "babel-node ./src/server.js",
+    "dev": "nodemon --exec babel-node ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +26,8 @@
     "body-parser": "^2.2.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
+    "node-localstorage": "^3.0.5",
+    "nodemon": "^3.1.10",
+    "uuid": "^11.1.0"
   }
 }
