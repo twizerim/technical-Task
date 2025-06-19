@@ -1,0 +1,29 @@
+{
+  "name": "technical-task",
+  "version": "1.0.0",
+  "description": "This project is project of creating API endpoint of create user and get one",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twizerim/technical-Task.git"
+  },
+  "author": "TWIZERIMANA Gedeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twizerim/technical-Task/issues"
+  },
+  "homepage": "https://github.com/twizerim/technical-Task#readme",
+  "dependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/node": "^7.27.1",
+    "@babel/plugin-transform-runtime": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
